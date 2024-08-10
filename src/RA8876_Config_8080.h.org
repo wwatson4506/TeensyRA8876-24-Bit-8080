@@ -1,0 +1,34 @@
+/* RA8876_Config.h
+ A file to place user defines and configs.
+*/
+
+#ifndef RA8876_CONFIG_H
+#define RA8876_CONFIG_H
+
+// Hardware defines
+#define USE_8080_8_BIT_MODE 8
+#define USE_8080_16_BIT_MODE 16
+
+#define RA8876_8080_CS 11
+#define RA8876_8080_DC 13
+#define RA8876_8080_RESET 12
+
+#define RA8876_WR 53
+#define RA8876_RD 52
+#define RA8876_D0 40
+
+// DB5 Shield
+//#define RA8876_8080_CS 11
+//#define RA8876_8080_DC 13
+//#define RA8876_8080_RESET 12
+
+#define BUS_SPEED 12 //Available settings 2,4,8,12,20,24,30,40,60,120
+
+//External backlight control connected to this Arduino pin
+//#define BACKLITE 5 
+// #define BACKLITE 29 
+
+// Uncomment to use FT5206 touch.
+#define USE_FT5206_TOUCH
+
+#endif // RA8876_CONFIG_H
